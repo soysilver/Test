@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 1.8;
   margin: 0;
   text-transform: inherit;
-  padding: 8px 12px;
+  padding: 10px 12px;
 }
 
 
@@ -62,7 +62,7 @@ nav ul li a {
   line-height: 1.8;
   font-size: 16px;
   padding: 8px 12px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
