@@ -21,7 +21,6 @@ strong {
 header {
   background-color: #f9f9f9;
   padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -30,7 +29,7 @@ title{font-size: 28px;
   padding: 10px 20px 5px;
 }
 
-mini-title{font-size: 20px;
+mini{font-size: 20px;
   font-weight: bold;
   padding: 10px 20px 5px;
 }
