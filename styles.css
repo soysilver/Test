@@ -34,19 +34,13 @@ header {
 }
 
 
-.site-title {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-  padding: 10px 20px 5px;
-}
-
 h1,h2,h3,h4,h5,h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.8;
   margin: 0;
   text-transform: inherit;
+  padding: 8px 12px;
 }
 
 
