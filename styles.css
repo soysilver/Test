@@ -11,9 +11,19 @@ p {
   line-height: 1.6;
 }
 
+/* 이게 그 취람색? 이래요 */
 strong {
-  color: #5dc19b; /* 이게 그 취람색? 이래요 */
+  color: inherit;       
   font-weight: bold;
+  text-decoration: underline; 
+  text-decoration-color: #5dc19b; 
+  transition: color 0.3s ease; 
+  cursor: pointer;
+}
+
+strong:hover {
+  color: #5dc19b;          
+  text-decoration-color: transparent; 
 }
 
 
@@ -24,15 +34,21 @@ header {
 }
 
 
-title{font-size: 28px;
+.site-title {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 28px;
   font-weight: bold;
   padding: 10px 20px 5px;
 }
 
-mini{font-size: 20px;
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
-  padding: 10px 20px 5px;
+  line-height: 1.8;
+  margin: 0;
+  text-transform: inherit;
 }
+
 
 /* 내비게이션 바 */
 nav ul {
