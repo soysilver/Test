@@ -96,20 +96,14 @@ nav ul li a:hover {
 }
 
 /* 아카이브 전용 */
-.year {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-top: 2rem;
+arc {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.section-title {
-  font-size: 1rem;
-  margin-top: 1rem;
-  font-weight: normal;
-  color: #555;
+arc:hover {
+  color: #f9f9f9;
+  background-color: #5dc19b;
+  border-bottom-color: transparent;
 }
 
-.entry {
-  display: block;
-  margin-bottom: 1rem;
-}
