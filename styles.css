@@ -15,6 +15,7 @@ p {
 a {
   color: inherit;
   font-weight: bold;
+  text-decoration: none;
   border-bottom: 2px solid #5dc19b; 
   transition: color 0.3s ease, background-color 0.3s ease;
   cursor: pointer;
