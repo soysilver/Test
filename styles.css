@@ -70,3 +70,22 @@ nav ul li a:hover {
   color: #2e6f5a; 
   border-radius: 4px;
 }
+
+
+/*아카이브 전용 어쩌구*/
+
+.year {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.section-title {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: normal;
+  color: #555;
+}
+.entry {
+  display: block;
+  margin-bottom: 1rem;
+}
